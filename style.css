@@ -1,0 +1,126 @@
+body{
+background-image: url(../img/cinza.jpg);
+background-repeat: round;
+
+
+             font-family:Helvetica;
+
+
+       }
+
+             .container;
+                 width: 80%;
+                 margin-right: auto;
+                 margin-left: auto;
+                 
+
+       }
+          header,footer{
+          	background-color:rgba(135,206,235,0.5);
+          	padding: 5%; 
+ 	     
+ 	     }
+
+
+     h1,h2 {
+         text-align:center;
+         font-weight:bolder;
+         margin-top: 2%;
+         margin-bottom: 2%; 
+
+
+
+
+     }
+         p{
+         text-align: center
+         font-weight:bolder;
+          font-size: 20px;
+         text-align: justify;
+         margin-top: 2%;
+         margin-bottom: 2%;
+
+
+
+
+
+
+     }
+
+         .centro{
+	         color: #4169E1;
+	         text-align: center;
+
+
+
+     }
+
+
+ h3{
+text-align: center;
+
+
+
+
+
+          }
+figure{
+
+ text-align: center;
+
+
+
+
+          }
+    img{border: 5px dashed #fff
+      width:80%;
+
+
+
+         }
+
+         ul,li{
+
+             text-align: center;
+             font-weight:bolder;
+             font-size: 20px;
+             text-align: justify;
+             font-family: URW Chancery L, cursive
+             margin-top:2%;
+             margin-bottom:2%;
+
+
+
+
+          }
+
+         table{
+
+          text-align: center;
+         width: 80%;
+
+
+         }
+       a:link {
+		color: #fff;
+		background-color: transparent;
+		text-decoration: underline;
+			}
+
+            a:visited {
+            color: red;
+			background-color: transparent;
+			text-decoration: none;
+	     }
+
+				a:hover {
+			color: red;
+			background-color: transparent;
+			text-decoration: underline;
+		 }
+
+		a:active {
+		color:#800000;
+		background-color: transparent;
+		text-decoration: underline;
+		 }
