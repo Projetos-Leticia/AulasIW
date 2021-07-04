@@ -1,0 +1,404 @@
+html
+  {scroll-behavior: smooth;}
+
+body
+  {background-image: url(../img/cinza.jpg);
+  background-repeat: round;
+  font-family:Helvetica;}
+
+  .container
+  {width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-bottom: 10%;}
+
+  header,footer
+  {background-color:rgba(65,105,225);
+  padding: 1%; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:1.5em; 
+  line-height: 1.5;}
+
+  footer
+  {position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;}
+
+  .menu-opcoes
+  {text-align: center;}
+
+  .fixo
+  {position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+       
+       }
+
+       .ajustes{
+
+        line-height: 1;
+        text-align: center;
+
+       }
+
+       .ajustes li:hover{
+
+        background-color: #708090;
+       }
+
+
+         p{
+
+          color: black;
+         text-align: center;
+         font-weight:bolder;
+          font-size: 1.2px;
+         text-align: justify;
+         margin-top: 1.5%;
+         margin-bottom: 1.5%;
+
+
+
+
+
+
+     }
+
+         .centro{
+           color: #4169E1;
+           text-align: center;
+
+
+
+     }
+
+        .fundo{
+
+         background: #B0C4DE;
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 3%;
+          font-size: 1.2em;
+     }
+
+     .distancia{
+
+      margin-top: 2%;
+      margin-bottom: 2%;
+
+
+     }
+
+        input[type=text];select,textarea,input[type=number]{
+
+          width: 80%;
+          padding: 12px 20px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 25px;
+          box-sizing: border-box;
+    }
+
+        input[type=text]{
+
+          width: 100%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border:none;
+          border-radius: 4px;
+          cursor: pointer;
+
+    }
+
+        fieldset{
+
+          width: 95%;
+          border: 2px solid #ccc;
+          padding: 2%
+
+        }
+
+        .item{
+
+          position: relative;
+          margin: 10px 0px;
+        }
+
+        .item::before{
+          content: '';
+          padding: relative;
+          left: 0,
+          top:0;
+          padding: 10px 15px;
+          background-image: url(../img/placa.png);
+          background-repeat: no-repeat;
+          margin-right: 5px;
+        }
+
+          h1,h2 {
+      font-size: 2em;
+         text-align:center;
+         font-weight:bolder;
+         margin-top: 2%;
+         margin-bottom: 2%; 
+
+           }
+
+           #sobre,#galeria{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: 0 auto;
+           }
+
+           #sobre.sobre{
+
+            align-items: center;
+            text-align: center;
+           }
+
+           #galeria{           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: 5px 10px;
+           }
+
+           #galeria.galeria{
+
+           text-align: center;
+           background-color: black;
+           padding: 30px;
+           text-align: center;
+
+           }
+
+           .imggaleria{
+
+            width: 90%;
+            border-radius: 50px;
+            box-shadow: 10px 10px grey;
+           }
+
+           .imgsobre{
+            width: 20%
+            height:20%;
+            transition: width 2s,height 2s,transform 2s;
+           }
+
+           .imgsobre:hover{
+            transform: rotate(180deg);
+           }
+
+           h1{
+
+            font-size:2em;
+
+           }
+
+           h2{
+
+            font-size: 1.5em;
+           }
+
+           h3{
+
+            font-size: 1.2em;
+            text-decoration: underline;
+           }
+
+           .titulos{
+
+            text-align: center;
+            color: black;
+            font-weight: bolder;
+            margin-top: 2%;
+            margin-bottom: 2%;
+           }
+
+       h3{
+       text-align: center;
+
+
+
+
+
+          }
+       figure{
+
+       text-align: center;
+
+
+
+
+          }
+
+
+
+         ul,li{
+
+             text-align: center;
+             font-weight:bolder;
+             font-size: 20px;
+             text-align: justify;
+             font-family: URW Chancery L, cursive;
+             margin-top:2%;
+             margin-bottom:2%;
+
+
+
+
+          }
+
+          .listastexto{
+
+            text-decoration: underline;
+            color:black;
+            font-weight: bolder;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            font-size: 1em;
+          }
+
+         table{
+
+          text-align: center;
+         width: 80%;
+
+
+         }
+
+         .imgtexto{
+         border: 5px dashed #fff;
+         width:80%;
+      }
+
+         
+         a:link {
+       color: #fff;
+       background-color: transparent;
+       text-decoration: underline;
+      }
+
+            a:visited {
+            color: red;
+      background-color: transparent;
+      text-decoration: none;
+       }
+
+
+       .ajustes{
+       
+       line-height: 1;
+       text-align: center;
+
+       
+       }
+
+        .ajustes li:hover {
+      color: red;
+      background-color: transparent;
+      
+     }
+
+      a:active {
+      color:#800000;
+      background-color: transparent;
+      text-decoration: underline;
+       }
+
+       /* tela menor que 599px */
+      @media screen and (max-width: 599px){
+     .container{
+                margin-top: 65%;
+
+  }
+
+  }
+
+     /* quando a tela for maior que 600px */
+    @media screen and (max-width: 600px) {
+      .container{
+        margin-top: 40%;
+  }
+  }
+
+     /* telas maiores que 768px */
+     @media screen and (min-width: 768px){
+    .container{
+     margin-top: 20%;
+
+      }
+
+        header{
+      background-color: black(65,105,225,0.5);
+      flex-direction: row;
+      position: relative;
+      height: 100px;
+
+   }
+
+
+   }
+     .imglogo{
+
+       position: absolute;
+       width: 25%;
+       top: 20px;
+       left: 5%;
+
+  }
+
+  }
+
+    .menu-opcoes{
+    position:absolute; 
+    right: 5%;
+    top:45%;
+
+ } 
+   .menu-opcoes ul li{
+
+    display:inline;
+    margin-left: 10px; 
+  }
+
+  #sobre{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #sobre h1,h3,p,#galeria {
+    width: 100%;
+    text-align: center;
+    }
+    #sobre.obre,#galeria.galeria{
+      width: 25%;
+      text-align: center;
+    }
+  }
+
+
+
+
+
+  
+
+
+     
+     
+
